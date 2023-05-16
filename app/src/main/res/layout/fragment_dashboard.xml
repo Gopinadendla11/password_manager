@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Models.DashboardFragment" >
+
+    <ImageButton
+        android:id="@+id/img_btn_add_new"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icons8_add_new_50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/img_btn_view_edit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icons8_bullet_list_30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_btn_add_new"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/generate_pwd"
+        app:layout_constraintEnd_toEndOf="@+id/img_btn_generate_pwd"
+        app:layout_constraintStart_toStartOf="@+id/img_btn_generate_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/img_btn_generate_pwd" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="View Saved Cards"
+        app:layout_constraintEnd_toEndOf="@+id/img_btn_view_cards"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/img_btn_view_cards"
+        app:layout_constraintTop_toBottomOf="@+id/img_btn_view_cards" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_new"
+        app:layout_constraintEnd_toEndOf="@+id/img_btn_add_new"
+        app:layout_constraintStart_toStartOf="@+id/img_btn_add_new"
+        app:layout_constraintTop_toBottomOf="@+id/img_btn_add_new" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/view_edit_pwd"
+        app:layout_constraintEnd_toEndOf="@+id/img_btn_view_edit"
+        app:layout_constraintStart_toStartOf="@+id/img_btn_view_edit"
+        app:layout_constraintTop_toBottomOf="@+id/img_btn_view_edit" />
+
+    <ImageButton
+        android:id="@+id/img_btn_generate_pwd"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icons8_good_pincode_50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageButton
+        android:id="@+id/img_btn_view_cards"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icons8_credit_card_64___copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_btn_generate_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageButton
+        android:id="@+id/img_Btn_view_address"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icons8_location_50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="View Saved Address"
+        app:layout_constraintEnd_toEndOf="@+id/img_Btn_view_address"
+        app:layout_constraintStart_toStartOf="@+id/img_Btn_view_address"
+        app:layout_constraintTop_toBottomOf="@+id/img_Btn_view_address" />
+
+    <ImageButton
+        android:id="@+id/imageButton_settings"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="65dp"
+        android:src="@drawable/icons8_gear_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/settings"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton_settings"
+        app:layout_constraintStart_toStartOf="@+id/imageButton_settings"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_settings" />
+</androidx.constraintlayout.widget.ConstraintLayout>

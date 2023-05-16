@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Models.AddNewAddressFragment">
+
+
+    <EditText
+        android:id="@+id/editText_address_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Address Line 1"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editText_address_name"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/editText_apt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Apt No"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editText_address_1"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <EditText
+        android:id="@+id/editText_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editText_apt"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <EditText
+        android:id="@+id/editText_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="State"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editText_city"
+        tools:layout_editor_absoluteX="79dp" />
+
+    <EditText
+        android:id="@+id/editText_zip_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="ZIP Code"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editText_state"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <Button
+        android:id="@+id/btn_address_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_zip_code" />
+
+    <EditText
+        android:id="@+id/editText_address_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Address Name"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="36dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

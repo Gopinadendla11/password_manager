@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="use_fingerprint">Use Fingerprint</string>
+    <string name="enter_master_password">Enter Master password</string>
+    <string name="submit">Submit</string>
+    <string name="add_new">Add New</string>
+    <string name="generate_pwd">Generate Password</string>
+    <string name="view_edit_pwd">View/Edit Password</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="type">Type</string>
+    <string name="application_name">Application Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="category_folder">Category Folder</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="FBDataType">FBDataType</string>
+    <string name="FBAppName">FBAppName</string>
+    <string name="FBPassword">FBPassword</string>
+    <string name="FBUserName">FBUserName</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_category">Select Category</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+</resources>
